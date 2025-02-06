@@ -60,6 +60,7 @@ veikka.kukko@gmail.com
 
 ## tekstien ja kuvien lisäksi jotain muuta sisältöä: vaihtoehtoja esim. multimediaelementit (videot, äänitallenteet ), vuorovaikutukselliset elementit (lomakkeet, kyselyt, upotetut kartat)
 
+YouTube-videon upotus sivulle:
 [![Video labyrinttirobotista](https://img.youtube.com/vi/TwOko4wgAwU/0.jpg)](https://www.youtube.com/watch?v=TwOko4wgAwU)
 
 
