@@ -1,21 +1,92 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  margin: 0 auto; 
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+#root, .App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+
+body {
+  background-color: #949494;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+
+h1 h2 h3 h4 h5 h6{
+  font-family: 'Hoefler text', sans-serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Hoefler text', sans-serif;
+}
+
+select {
+  border: 3px solid #5b00bd; /* Green border color */
+  background-color: white;
+  font-family: 'Hoefler text', serif;
+  border-radius: 6px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+select:focus {
+  outline: none;
+  border: 3px solid #005e02; /* Change border color when focused */
+}
+
+ul {
+  font-family: 'Hoefler text', serif;
+}
+
+.message {
+  white-space: pre-wrap; /* Allows automatic line breaks */
+  word-wrap: break-word; /* Ensures long words break properly */
+  text-align: center; /* Centers text if needed */
+}
+
+.btn-purple {
+  background-color: #5b00bd;
+  border-color: #5b00bd;
+  color: white;
+  border-radius: 15px;
+  padding: 5px 30px;
+  font-size: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-delete {
+  background-color: 	#800000;
+  border-color: 	#800000;
+  color: white;
+  border-radius: 20px;
+  padding: 5px 30px;
+
+  font-size: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Mobiililaitteilla pienempi padding ja fonttikoko */
+@media (max-width: 768px) {
+  .btn-purple {
+    padding: 5px 20px;
+    font-size: 14px;
+  }
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  text-align: center;
 }
 
 @keyframes logo-spin {
@@ -33,10 +104,72 @@
   }
 }
 
-.card {
-  padding: 2em;
+.card-header h1 {
+  font-size: 100px;
 }
 
 .read-the-docs {
   color: #888;
+}
+
+.errmsg {
+  color: red;
+}
+
+.card {
+  margin: 15px; 
+  padding: 20px;
+  max-width: 500px; 
+  min-width: 300px; 
+  width: 100%; 
+  text-align: left; 
+}
+
+.card-body {
+  padding: 20px; 
+  word-wrap: break-word; 
+  line-height: 1.6; 
+}
+
+p {
+  text-align: justify;
+  font-size: 1rem;
+}
+
+@media (min-width: 992px) {
+  .card {
+    max-width: 600px; /
+  }
+
+  .card-header h1 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card {
+    max-width: 700px; 
+  }
+
+  .card-header h2 {
+    font-size: 3rem; 
+  }
+
+  p {
+    font-size: 1.4rem;
+  }
+}
+
+.form-control {
+  white-space: normal; 
+  word-wrap: break-word; 
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column; 
 }

@@ -1,0 +1,108 @@
+@media (max-width: 991px) { /* Applies only when navbar is collapsed */
+    .navbar-collapse {
+        text-align: center; /* Centers text inside the collapsed menu */
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Aligns links to the center */
+    }
+}
+
+.white-text .navbar-brand:hover {
+    text-decoration: underline;
+    /* Lisää alleviivauksen hover-tilassa */
+    color: white;
+    background-color: rgb(62, 62, 62);
+    font-family: 'Hoefler text', serif;
+    /* Muuttaa taustavärin tummanharmaaksi hover-tilassa */
+
+}
+
+.logout-button {
+    border-radius: 8px; /* Rounded corners */
+    padding: 8px 12px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .logout-button:hover {
+    background: rgba(255, 255, 255, 0.2); /* Subtle hover effect */
+  }
+
+.navbar-toggler {
+    border-color: white !important; /* Change border color */
+  }
+
+.navbar-toggler-icon {
+    filter: invert(1); /* Makes the icon white */
+    background-color: transparent;
+  }
+
+.custom-nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.custom-nav-link:hover {
+    background-color: rgb(123, 123, 123);
+    /* Muuttaa taustavärin tummanharmaaksi hover-tilassa */
+    text-decoration: underline;
+    /* Lisää alleviivauksen hover-tilassa */
+    
+}
+  
+  
+  
+/* Default navbar position*/
+.navbar {
+    z-index: 1050; /* Bootstrap's default z-index for navbar */
+    position: fixed;
+    background-color: rgb(39, 39, 39);
+    width: 100%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    flex: 1;
+    padding: 10px;
+    font-size: x-large;
+    font-family: 'Hoefler text', serif;
+    transition: opacity 0.5s ease-in-out; /* Smooth fade */
+}
+  
+.sticky {
+opacity: 1;
+}
+
+/* Fixed navbar after scrolling */
+.navbar.fixed {
+    position: fixed;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    visibility: hidden;
+  }
+
+/* Full-screen image */
+.fullscreen-image {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
+
+.custom-footer {
+    background-color: rgb(39, 39, 39);
+    color: white;
+    width: 100vw;
+}
+
+.custom-nav-link {
+    margin-left: 40px;
+    margin-right: 40px;
+    align-self: flex-end;
+}
+
+.footer-text{
+    color: white;
+    font-family: 'Hoefler text', serif;
+    text-align: center;
+}
