@@ -12,7 +12,7 @@ const Home = () => {
     <>
       <NavigationBar></NavigationBar>
 
-        <div>
+        <div style={{paddingTop: "80px"}}>
             <img src={kukkulakuva} alt="Kukkulan kuningas" width="100%"/>
         </div>
 

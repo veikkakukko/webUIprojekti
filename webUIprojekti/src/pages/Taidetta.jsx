@@ -85,7 +85,7 @@ const Taidetta = () => {
             <p>
                 Tämän vektoritaideteoksen loin erään varusmiespalveluksen kotiutumispäivänä otetun kuvan pohjalta. 
                 Vektoritekniikka tekee M05-maastokuviosta näyttävän tässä kuvassa. 
-                Kotiuduin Dragsivikin varuskunnasta aliluutnanttina palveltuani 347 päivää.
+                Kotiuduin Dragsvikin varuskunnasta aliluutnanttina palveltuani 347 päivää.
             </p>
         </div>
 
