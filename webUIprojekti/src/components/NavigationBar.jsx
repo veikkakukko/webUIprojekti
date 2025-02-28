@@ -64,15 +64,15 @@ const NavigationBar = () => {
                 />
               </Nav.Link>
               
-              <Nav.Link href="/tyo-ja-opinnot" className="custom-nav-link">
+              <Nav.Link href="tyo-ja-opinnot" className="custom-nav-link">
                 Työ ja opinnot
               </Nav.Link>
 
-              <Nav.Link href="/ohjelmointi" className="custom-nav-link">
+              <Nav.Link href="ohjelmointi" className="custom-nav-link">
                 Ohjelmointiprojektit
               </Nav.Link>
 
-              <Nav.Link href="/vektoritaide" className="custom-nav-link">
+              <Nav.Link href="vektoritaide" className="custom-nav-link">
                 Vektoritaidetta
               </Nav.Link>
 
