@@ -6,13 +6,16 @@ import Footer from "../components/Footer.jsx";
 import "./Style_Home.css";
 import gitLogo from "../assets/GitHub_Icon.png";
 import robo from "../assets/robo1.png";
+import oti from "../assets/kayttoliittymankuva.png"
 
 const Ohjelmointi = () => {
   const containerStyle = {
     display: "flex",
     justifyContent: "space-between",
+    alignSelf: "center",
     alignItems: "center",
-    padding: "10px",
+    width: "90%",
+    gap: "20px"
   };
 
   return (
@@ -25,8 +28,9 @@ const Ohjelmointi = () => {
       <br />
       <br />
       <br />
-      <div style={containerStyle}>
-        <p style={{ textAlign: "left" }}>
+
+      <div className="flex-container" style={containerStyle}>
+        <p style={{ textAlign: "left"}}>
           <strong>Ohjelmointiprojektit</strong>
           <br />
           <br />
@@ -43,34 +47,64 @@ const Ohjelmointi = () => {
         </Button>
       </div>
 
-      <Card className="full-width-card w-100 border-0 overflow-hidden">
-        <Row className="g-0">
-          {/* Text on the Left */}
-          <Col md={6} className="d-flex align-items-center p-4">
-            <Card.Body>
-              <Card.Title
-                style={{ fontFamily: "Hoefler Text", fontWeight: "bold" }}
-              >
-                Robottiprojekti
-              </Card.Title>
-              <Card.Text>
-                Ohjelmoin robotiikan kurssilla tällaisen robotin. Pohjana
-                projektissa oli Arduino Uno. Opin ohjelmoimaan C-kielellä.
-              </Card.Text>
-            </Card.Body>
-          </Col>
 
-          {/* Image on the Right */}
-          <Col md={6} className="p-0">
-            <Card.Img
-              src={robo}
-              alt="Robotti"
-              className="img-fluid full-width-img"
-            />
-          </Col>
-        </Row>
-      </Card>
 
+      <div className="custom-card" style={{width: "90%", alignSelf: "center"}}>
+        {/* Left Side - Text */}
+        <div className="custom-text">
+            <h2>Labyrinttirobotti</h2>
+            <p>Kurssityö robotiikan kurssilla Itä-Suomen yliopiston Tietojenkäsittelytieteen laitoksella. 
+                Minä ja tiimini rakensimme ja ohjelmoimme robotin, joka osaa kulkea labyrintin läpi.
+                Pohjana robotille toimi Arduino Uno ja ohjelmoimme sen C:llä. Robotin toimintaa voit nähdä alla olevalla videolla. 
+                Voit tarkastella projektia GitHubissa <a href="https://github.com/veikkakukko/mazeRobot">täältä</a>.
+            </p>
+        </div>
+
+        <div className="video-container">
+            <iframe
+                width="560"
+                height="315"
+                src={`https://www.youtube.com/embed/${"TwOko4wgAwU"}`}
+                title="YouTube Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+            ></iframe>
+        </div>
+      </div>
+
+
+
+      <div className="custom-card" style={{width: "90%", alignSelf: "center"}}>
+        {/* Left Side - Text */}
+        <div className="custom-text">
+            <h2>Mökkivarausjärjestelmä</h2>
+            <p>Savonia AMK:n Ohjelmistotuotanto I -kurssin ohjelmistoprojekti neljän hengen tiimissä. Village Newbies -varaustenhallintajärjestelmä. 
+                Toteutustekniikoina Java ja SQL. Vastasin käyttöliittymän suunnittelusta ja toteutuksesta. 
+                Voit tarkastella projektia GitHubissa <a href="https://github.com/Orofil/oti-projekti">täältä</a>.
+            </p>
+        </div>
+
+        {/* Right Side - Image */}
+        <div className="custom-image">
+            <img src={oti} alt="Käyttöliittymänäkymä mökkivarausjärjestelmästä"/>
+        </div>
+      </div>
+
+      <div className="custom-card" style={{width: "90%", alignSelf: "center"}}>
+        {/* Left Side - Text */}
+        <div className="custom-text">
+            <h2>My Awesome Project</h2>
+            <p>This section contains text on the left, and an image on the right. On mobile, they stack properly.</p>
+        </div>
+
+        {/* Right Side - Image */}
+        <div className="custom-image">
+            <img src={robo} alt="Robotti"/>
+        </div>
+      </div>
+
+      
+        <br /><br />
       <Footer />
     </>
   );
