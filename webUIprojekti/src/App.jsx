@@ -12,7 +12,7 @@ function App() {
     <>
       <div className="App">
         <ToastContainer theme="colored" />
-        <BrowserRouter>
+        <BrowserRouter basename="/webUIprojekti">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/tyo-ja-opinnot" element={<Tyo />} />
