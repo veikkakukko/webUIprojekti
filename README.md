@@ -15,19 +15,19 @@ Etusivu sisältää yleisen esittelyn itsestäni. Etusivulla on myös kuvattuna 
 
 
 ## Vähintään 1 koko selainnäkymän täyttävä taustakuva
-![Kuva kukkulalla kitaran kanssa](kukkulalla.jpg)
+![Kuva kukkulalla kitaran kanssa](webUIprojekti/src/assets/kukkulalla.jpg)
 
 
 ## Vähintään yksi iso kuva, joka täyttää n. 60-90% ruudun kuvapinta-alasta, kun selainikkuna täyttää koko ruudun
-![Katolla](katolla.jpg)
+![Katolla](webUIprojekti/src/assets/katolla.jpg)
 
 
 ## Vähintään 1 pienempi kuva, joka täyttää n. 10-30% ruudun kuvapinta-alasta, kun selainikkuna täyttää koko ruudun
-![Sotilaspoika](Sotilaspoika.png)
+![Sotilaspoika](webUIprojekti/src/assets/Sotilaspoika.png)
 
 
 ## Vähintään 1 pieni kuva, jota toimii kuvallisena linkkinä
-![Robotti](Robottipaa.png)
+![Robotti](webUIprojekti/src/assets/Robottipaa.png)
 
 
 ## PALJON TEKSTIÄ!!! Tekstin voit tuottaa itse. Jos hyödynnät tekoälyä tai muiden tuottamaa tekstiä, mainitse lähteet. Toinen vaihtoehto: tee aiheeseen liittyvää tekstiä ensimmäinen kappale/sivu, mutta muuten tekstimassaa voi tuottaa käyttämällä Lorem Ipsum..-täytetekstiä.
