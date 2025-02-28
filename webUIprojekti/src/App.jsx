@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import Home from "./pages/Home";
 import { ToastContainer } from "react-toastify";
 import Tyo from "./pages/Tyo.jsx";
@@ -12,14 +13,14 @@ function App() {
     <>
       <div className="App">
         <ToastContainer theme="colored" />
-        <BrowserRouter basename="/webUIprojekti">
+        <HashRouter>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/tyo-ja-opinnot" element={<Tyo />} />
             <Route path="/ohjelmointi" element={<Ohjelmointi />} />
             <Route path="/vektoritaide" element={<Taidetta />} />
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
       </div>
     </>
   );
