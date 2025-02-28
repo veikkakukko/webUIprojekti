@@ -64,7 +64,7 @@ const NavigationBar = () => {
                 />
               </Nav.Link>
               
-              <Nav.Link href="#/tyo-ja-opinnot" className="custom-nav-link">
+              <Nav.Link to="#/tyo-ja-opinnot" className="custom-nav-link">
                 Työ ja opinnot
               </Nav.Link>
 
