@@ -27,9 +27,9 @@ const Home = () => {
                 <br /> <br />Olen Veikka Kukko. Olet löytänyt kotisivuni. 
                 Tältä sivustolta voit löytää minusta tietoa työnhakuun liittyen, 
                 sisältöä tekemistäni ohjelmointiprojekteista ja tuottamaani grafiikkataidetta.
-                <br /> <br />Jos olet työnantaja, löydät työnhakuun liittyvää tietoa välilehdeltä <strong><a href="tyo-ja-opinnot">Työ ja opinnot</a></strong>. <br />
-                Ohjelmointiprojektejani löydät välilehdeltä <strong><a href="ohjelmointi">Ohjelmointiprojektit</a></strong>. <br />
-                Taidetta löydät välilehdeltä <strong><a href="vektoritaide">Vektoritaidetta</a></strong>. <br />
+                <br /> <br />Jos olet työnantaja, löydät työnhakuun liittyvää tietoa välilehdeltä <strong><a href="#/tyo-ja-opinnot">Työ ja opinnot</a></strong>. <br />
+                Ohjelmointiprojektejani löydät välilehdeltä <strong><a href="#/ohjelmointi">Ohjelmointiprojektit</a></strong>. <br />
+                Taidetta löydät välilehdeltä <strong><a href="#/vektoritaide">Vektoritaidetta</a></strong>. <br />
                 Olet tällä hetkellä etusivulla. Etusivu sisältää yleisen esittelyn minusta.
 
                 <br /> <br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet mauris est. Integer vitae ante luctus, molestie urna non, mattis mauris. Integer porta at neque at varius. Phasellus ut augue vestibulum libero tincidunt tempus finibus id sem. Ut eu nulla pharetra, luctus justo quis, tincidunt sem. Phasellus cursus, nunc vitae sollicitudin fringilla, lacus quam pretium purus, eget efficitur turpis odio eget ex. Quisque quis lectus pharetra, facilisis magna cursus, vestibulum metus. Nam mollis nulla eu sollicitudin aliquet.
