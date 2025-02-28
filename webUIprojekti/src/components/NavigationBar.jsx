@@ -42,7 +42,7 @@ const NavigationBar = () => {
   return (
     <Navbar expand="lg" className={`white-text navbar ${isSticky ? "sticky" : ""}`} style={{ opacity }}>
       <Container fluid>
-      <Navbar.Brand as={Link} to="#/">
+      <Navbar.Brand as={Link} to="/">
           <img
             src={logo}
             alt="Logo"
@@ -56,7 +56,7 @@ const NavigationBar = () => {
 
             <>
             <Nav className="mx-auto">
-              <Nav.Link as={Link} to="#/" className="custom-nav-link">
+              <Nav.Link as={Link} to="/" className="custom-nav-link">
                 <img 
                   src={talo}
                   alt="Home" 
