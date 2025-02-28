@@ -16,9 +16,9 @@ function App() {
         <HashRouter>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="tyo-ja-opinnot" element={<Tyo />} />
-            <Route path="ohjelmointi" element={<Ohjelmointi />} />
-            <Route path="vektoritaide" element={<Taidetta />} />
+            <Route path="/tyo-ja-opinnot" element={<Tyo />} />
+            <Route path="/ohjelmointi" element={<Ohjelmointi />} />
+            <Route path="/vektoritaide" element={<Taidetta />} />
           </Routes>
         </HashRouter>
       </div>

@@ -42,7 +42,7 @@ const NavigationBar = () => {
   return (
     <Navbar expand="lg" className={`white-text navbar ${isSticky ? "sticky" : ""}`} style={{ opacity }}>
       <Container fluid>
-      <Navbar.Brand as={Link} to="/#/">
+      <Navbar.Brand as={Link} to="/">
           <img
             src={logo}
             alt="Logo"
@@ -56,7 +56,7 @@ const NavigationBar = () => {
 
             <>
             <Nav className="mx-auto">
-              <Nav.Link as={Link} to="/#/" className="custom-nav-link">
+              <Nav.Link as={Link} to="/" className="custom-nav-link">
                 <img 
                   src={talo}
                   alt="Home" 
@@ -64,15 +64,15 @@ const NavigationBar = () => {
                 />
               </Nav.Link>
               
-              <Nav.Link as={Link} to="/#/tyo-ja-opinnot" className="custom-nav-link">
+              <Nav.Link as={Link} to="/tyo-ja-opinnot" className="custom-nav-link">
                 Työ ja opinnot
               </Nav.Link>
 
-              <Nav.Link as={Link} to="/#/ohjelmointi" className="custom-nav-link">
+              <Nav.Link as={Link} to="/ohjelmointi" className="custom-nav-link">
                 Ohjelmointiprojektit
               </Nav.Link>
 
-              <Nav.Link as={Link} to="/#/vektoritaide" className="custom-nav-link">
+              <Nav.Link as={Link} to="/vektoritaide" className="custom-nav-link">
                 Vektoritaidetta
               </Nav.Link>
 
