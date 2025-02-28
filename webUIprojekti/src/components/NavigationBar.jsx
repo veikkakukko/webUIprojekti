@@ -1,4 +1,5 @@
 import { Navbar, Container, Nav, Dropdown } from 'react-bootstrap';
+import { useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Style_footer_navbar.css';
@@ -16,6 +17,8 @@ const NavigationBar = () => {
 
   const [isSticky, setIsSticky] = useState(true);
   const [opacity, setOpacity] = useState(1);
+
+  const navigate = useNavigate();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -56,7 +59,7 @@ const NavigationBar = () => {
 
             <>
             <Nav className="mx-auto">
-              <Nav.Link as={Link} to="/" className="custom-nav-link">
+              <Nav.Link onClick={() => navigate("/")} className="custom-nav-link">
                 <img 
                   src={talo}
                   alt="Home" 
@@ -64,15 +67,15 @@ const NavigationBar = () => {
                 />
               </Nav.Link>
               
-              <Nav.Link as={Link} to="/#/tyo-ja-opinnot" className="custom-nav-link">
+              <Nav.Link onClick={() => navigate("/tyo-ja-opinnot")} className="custom-nav-link">
                 Työ ja opinnot
               </Nav.Link>
 
-              <Nav.Link as={Link} to="/#/ohjelmointi" className="custom-nav-link">
+              <Nav.Link onClick={() => navigate("/ohjelmointi")} className="custom-nav-link">
                 Ohjelmointiprojektit
               </Nav.Link>
 
-              <Nav.Link as={Link} to="/#/vektoritaide" className="custom-nav-link">
+              <Nav.Link onClick={() => navigate("/vektoritaide")} className="custom-nav-link">
                 Vektoritaidetta
               </Nav.Link>
 
